@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <color name="primary_red">#D32F2F</color>    <!-- Buttons, accents -->
+    <color name="secondary_red">#FF8A80</color>  <!-- Subtle highlights -->
+    <color name="white">#FFFFFF</color>          <!-- Background -->
+    <color name="dark_gray">#212121</color>      <!-- Text -->
+    <color name="grey">#757575</color>           <!-- Hint text -->
+</resources>

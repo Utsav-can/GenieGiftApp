@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <TextView
+        android:id="@+id/browse_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Browse Gifts"
+        android:textSize="24sp"
+        android:textColor="@color/primary_red"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp" />
+
+    <EditText
+        android:id="@+id/search_bar"
+        android:layout_width="0dp"
+        android:layout_height="56dp"
+        android:hint="Search gifts..."
+        android:textColor="@color/dark_gray"
+        android:textSize="16sp"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:background="@drawable/search_bar_background"
+        android:imeOptions="actionSearch"
+    android:singleLine="true"
+    app:layout_constraintTop_toBottomOf="@id/browse_title"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintWidth_default="percent"
+    app:layout_constraintWidth_percent="0.8"
+    android:layout_marginTop="16dp"
+    android:minHeight="48dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

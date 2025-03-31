@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">116030471542-u5rt4qbecmiia6294bvt0c3hadsne3ol.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">116030471542</string>
+    <string name="google_api_key" translatable="false">AIzaSyA7VPXrHHklu_1e_Irclt8REU1_agiGpsU</string>
+    <string name="google_app_id" translatable="false">1:116030471542:android:91e7d1caae41a4692c8e57</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyA7VPXrHHklu_1e_Irclt8REU1_agiGpsU</string>
+    <string name="google_storage_bucket" translatable="false">geniegiftfb.firebasestorage.app</string>
+    <string name="project_id" translatable="false">geniegiftfb</string>
+</resources>
